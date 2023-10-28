@@ -1,0 +1,92 @@
+/*Colors and fonts*/
+
+body {
+    background-color: rgb(173, 139, 115);
+    font-family:Helvetica ;
+    color: black;
+    font-size: 17px;
+}
+
+
+
+h1, h2, h3 {
+    font-family: Courier;
+}
+
+h1 {
+
+    color: rgb(227, 202, 165);
+    font-family: Courier;
+    font-size: 32px;
+}
+
+h2 {
+    color: rgb(227, 202, 165);
+    font-family: Courier;
+    font-size: 25px
+    font-weight: lighter;
+}
+
+
+a{
+    text-decoration: none ;
+    color: darkgrey ;
+}
+a:hover {
+    color: black ;
+}
+
+/* Custom design with class */
+.container {
+    widht:700px;
+    margin:200px;
+}
+
+
+@media (max-width: 760px) {
+    .container{
+        width: 600px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .container{
+        width: 400px;
+    }
+}
+
+.card-white {
+    background-color: white;
+    padding:30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 30px 10px;
+    text-align: center;
+}
+.btn-blue {
+    background-color: darkgrey ;
+    color: white ;
+    padding: 5px 2px;
+}
+.btn-blue:hover {
+    background-color: black ;
+    color: white ;
+}
+
+.list-inline {
+    list-style: none;
+    padding left: 0px;
+
+}
+.list-inline li{
+    display: inline;
+    padding: 10px;
+}
+.list-inline a{
+    font-size: 20px;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
